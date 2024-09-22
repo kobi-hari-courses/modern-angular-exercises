@@ -1,4 +1,6 @@
 # Exercise 01: TypeScript - Shape Calculation and Reporting
+[Solution Video](https://youtu.be/kz9DJVaBk6w) 
+
 
 ## Introduction
 In this exercise, you will practice:
