@@ -21,7 +21,7 @@ In this exercise, you will pracice:
 - Open the `app.component.html` file.
 - Add an `<h2>` heading for the task list.
 - Use an `<ul>` element to create an unordered list.
-- Use `*ngFor` directive to iterate over the tasks array and display each task as an `<li>` element.
+- Use `@for` control flow to iterate over the tasks array and display each task as an `<li>` element.
 - Inside each `<li>`, display the task name and an appropriate button for marking the task as complete.
 - Add a form section to allow users to input new tasks.
 - Use `#newTaskRef` as a template reference variable for the input field.
