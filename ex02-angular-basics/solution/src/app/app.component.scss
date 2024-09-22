@@ -1,0 +1,28 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-decoration: red underline;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    padding: 4px;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+li.is-done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
