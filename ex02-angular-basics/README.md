@@ -1,4 +1,5 @@
 # Exercise 02 - Angular Basics - Todo App
+[Solution Video](https://youtu.be/6g4u_I88vGk)
 ## Introduction
 In this exercise, you will pracice:
 * Setting up the angular development environment
