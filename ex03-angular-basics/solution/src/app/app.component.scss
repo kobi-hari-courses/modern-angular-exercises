@@ -1,0 +1,46 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    .game {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+
+        &.playing {
+            background: lightgray;
+        }
+
+        &.lost {
+            background: rgb(239, 213, 213);
+        }
+        &.won {
+            background: rgb(213, 239, 213);
+        }
+
+        table {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            td, th {
+                border: 1px solid gray;
+                padding: 4px;
+                text-align: center;
+            }
+
+            tr {
+                &.high {
+                    background: rgb(126, 126, 222);
+                }
+                &.low {
+                    background: rgb(215, 125, 125);
+                }
+                &.exact {
+                    background: rgb(135, 225, 135);
+                }
+            }
+        }
+    };
+}

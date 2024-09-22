@@ -1,35 +1,46 @@
-<div class="guesses-list">
-    <table>
-        <thead>
-            <th>No'</th>
-            <th>Guess</th>
-            <th>Result</th>
-        </thead>
-        <tbody>
-            @for(guess of userGuesses(); track $index) {
-                <tr>
-                    <td>{{ $index + 1 }}</td>
-                    <td>{{ guess.value }}</td>
-                    <td>{{ guess.result }}</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+<div class="game"
+    [class.playing]="gameState() === 'playing'"
+    [class.won]="gameState() === 'won'"
+    [class.lost]="gameState() === 'lost'">
+    <h1>Guess the number</h1>
+    <div class="guesses-list">
+        <table>
+            <thead>
+                <th>No'</th>
+                <th>Guess</th>
+                <th>Result</th>
+            </thead>
+            <tbody>
+                @for(guess of userGuesses(); track $index) {
+                    <tr 
+                        [class.high]="guess.result === 'too-high'"
+                        [class.low]="guess.result === 'too-low'"
+                        [class.exact]="guess.result === 'exact'"
+                        >
+                        <td>{{ $index + 1 }}</td>
+                        <td>{{ guess.value }}</td>
+                        <td>{{ guess.result }}</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+    @if(gameState() === 'playing') {
+        <div class="guess-form">
+            <input type="number" min="0" max="100" #nextGuess />
+            <button (click)="addGuess(nextGuess.valueAsNumber)">Guess</button>
+        </div>
+    } @else {
+        @if(gameState() === 'won') {
+            <h1>You won!</h1>
+        } @else {
+            <h1>You lost! </h1>
+            <h2>The correct guess was {{computerGuess()}}</h2>
+        }
+    
+    
+        <button (click)="restartGame()">Start New game</button>
+    }
 </div>
 
-@if(gameState() === 'playing') {
-    <div class="guess-form">
-        <input type="number" min="0" max="100" #nextGuess />
-        <button (click)="addGuess(nextGuess.valueAsNumber)">Guess</button>
-    </div>
-} @else {
-    @if(gameState() === 'won') {
-        <h1>You won!</h1>
-    } @else {
-        <h1>You lost! </h1>
-        <h2>The correct guess was {{computerGuess()}}</h2>
-    }
-
-
-    <button (click)="restartGame()">Start New game</button>
-}
