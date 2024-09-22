@@ -25,12 +25,12 @@ Create the following computed signals. Don't put too much code inside the comput
 - The current game status - playing, won or lost. Note that while there are less than 7 guesses, the game is still playing.
 - The latest guess
 
-### Step 7. Actions
+### Step 6. Actions
 Implement the following actions. Remember that actions only changes state, and that you should use immutable data so do not modify objects or arrays - create new ones that are derived from the old ones, and use helper pure functions for that.
 - Add Guess (guess number)
 - Start Over
 
-### Step 8. The template
+### Step 7. The template
 - Display a list of guesses the user has already made. For each guess write the number and the result (too high, too low, or exact)
 - Try to give different styling to the guesses depending on the guess result
 - If the game is not completed, display an input box of type number, and a "submit" button that submits the next guess
@@ -38,7 +38,7 @@ Implement the following actions. Remember that actions only changes state, and t
 - If the game is lost - display a proper message, and the correct number
 - If the game is won, display a proper message
 
-### Step 9. Styling
+### Step 8. Styling
 - Style the guess records different depending of their result. 
 - Style the entire game screen different depending on the game state (won, lost, playing)
 
