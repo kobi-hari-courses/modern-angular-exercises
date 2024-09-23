@@ -13,4 +13,5 @@
   - [Solution Video](https://youtu.be/6G9JeDjU_F4)
 
 05.  [Angular Components - Quiz app](./ex05-angular-components/README.md)
+  - [Solution Video](https://youtu.be/O4A1Mn81wnE)
 

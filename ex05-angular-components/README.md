@@ -1,4 +1,6 @@
 # Exercise 05: Angular Components - Quiz app
+[Solution Video](https://youtu.be/O4A1Mn81wnE)
+
 ## Introduction
 In this exercise we will create a quiz application that will ask the user a list of single choice questions and will finally present a summary and score.
 
