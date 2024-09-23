@@ -13,5 +13,13 @@ export class AppComponent {
   readonly questions = signal(ALL_QUESTIONS);
   readonly answers = signal<number[]>([]);
 
-  
+  resetQuiz() {
+    this.answers.set([]);
+  }
+
+  answerCurrentQuestion(userAnswer: number) {
+    this.answers.update(answers => [...answers, userAnswer]);
+  }
+
+
 }
