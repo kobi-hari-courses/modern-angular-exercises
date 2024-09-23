@@ -1,4 +1,5 @@
 # Exercise 03: Angular Basics - Guessing Game
+[Solution Video](https://youtu.be/pS5rY1uimhw)
 ## Introduction
 In this exercise, you're going to create a simple number guessing game in a single Angular component. The game will generate a random number between 1 and 100 and the player will need to guess it. The game allows the user maximum of 7 guesses, after which the game completes and the user has lost. If the user guesses the correct number in 7 guesses or less, the game completes and the user has won. When the game is completed, the user may click a restart button and start over with a new random number.
 

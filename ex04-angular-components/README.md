@@ -1,4 +1,6 @@
 # Exercise 04: Angular Components - Blog Post App
+[Solution Video](https://youtu.be/6G9JeDjU_F4)
+
 ## Introduction
 In this exercise, you will create a simple blog post management application. It will allow the user to view all the blog posts, and create new ones, or delete existing ones.
 
