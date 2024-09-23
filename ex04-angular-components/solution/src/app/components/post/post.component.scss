@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 8px;
+    width: 300px;
+    background-color: rgb(216, 235, 241);
+
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+
+        color: gray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
+    }
+}
