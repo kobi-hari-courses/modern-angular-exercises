@@ -1,7 +1,12 @@
 <app-progress-bar 
     [total]="questions().length" 
     [value]="answers().length"/>
-<app-question-presenter
+@if(isQuizDone()) {
+    <app-summary [ratio]="correctRatio()"
+        (restart)="resetQuiz()"/>
+} @else {
+    <app-question-presenter
     [question]="currentQuestion()"
     (userAnswer)="answerCurrentQuestion($event)"
 />
+}

@@ -4,11 +4,12 @@ import { ALL_QUESTIONS } from './data/all-questions';
 import { getAnswerEntities } from './logic/quiz-helpers';
 import { QuestionPresenterComponent } from "./components/question-presenter/question-presenter.component";
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { SummaryComponent } from './components/summary/summary.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [QuestionPresenterComponent, ProgressBarComponent],
+  imports: [QuestionPresenterComponent, ProgressBarComponent, SummaryComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
