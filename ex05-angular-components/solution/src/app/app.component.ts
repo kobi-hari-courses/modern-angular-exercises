@@ -2,11 +2,12 @@ import { Component, computed, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ALL_QUESTIONS } from './data/all-questions';
 import { getAnswerEntities } from './logic/quiz-helpers';
+import { QuestionPresenterComponent } from "./components/question-presenter/question-presenter.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [QuestionPresenterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
