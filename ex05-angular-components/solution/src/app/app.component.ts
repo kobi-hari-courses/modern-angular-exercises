@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { ALL_QUESTIONS } from './data/all-questions';
 import { getAnswerEntities } from './logic/quiz-helpers';
 import { QuestionPresenterComponent } from "./components/question-presenter/question-presenter.component";
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [QuestionPresenterComponent],
+  imports: [QuestionPresenterComponent, ProgressBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

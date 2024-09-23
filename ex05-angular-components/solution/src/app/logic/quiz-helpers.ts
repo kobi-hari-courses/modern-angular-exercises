@@ -8,3 +8,11 @@ export function getAnswerEntities(questions: Question[], userAnswers: number[]):
     }))  
 }
 
+export function getRatio(value: number, total: number): number {
+    if (value <= 0) return 0;
+    if (value >= total) return 1;
+
+    if (total <= 0) return 0;
+    return value / total;
+}
+

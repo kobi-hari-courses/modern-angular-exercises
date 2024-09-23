@@ -1,0 +1,12 @@
+:host {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid gray;
+
+    .value {
+        background-color: lightgreen;
+        transition: width 0.5s;
+    }
+}

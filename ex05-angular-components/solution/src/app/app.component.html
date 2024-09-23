@@ -1,3 +1,6 @@
+<app-progress-bar 
+    [total]="questions().length" 
+    [value]="answers().length"/>
 <app-question-presenter
     [question]="currentQuestion()"
     (userAnswer)="answerCurrentQuestion($event)"
