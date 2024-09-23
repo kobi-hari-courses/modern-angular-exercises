@@ -1,0 +1,11 @@
+<label>Title</label>
+<input type="text" #postTitle>
+
+<label>Content</label>
+<textarea #postContent></textarea>
+
+<button 
+    (click)="onSubmit(postTitle.value, postContent.value); 
+    postTitle.value='';
+    postContent.value=''"
+    >Create</button>   
