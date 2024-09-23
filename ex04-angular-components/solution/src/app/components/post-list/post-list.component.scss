@@ -1,0 +1,9 @@
+:host {
+    display: flex;
+    flex-direction: column;
+
+    .post-item {
+        display: flex;
+        flex-direction: row;
+    }
+}
