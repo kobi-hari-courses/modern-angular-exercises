@@ -38,4 +38,11 @@
 |
 [Solution Video](https://youtu.be/O4A1Mn81wnE)
 
+### Exercise 6 - Tasks App
+[Exercise](./ex06-ngrx-signals/README.md)
+|
+[Solution Code](./ex06-ngrx-signals/solution/)
+|
+[Solution Video](https://youtu.be/)
+
 

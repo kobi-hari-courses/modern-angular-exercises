@@ -54,14 +54,14 @@ In this exercise we will practice using `@ngrx/signals` features like `withState
 - When clicking the add button, create a new task with the content of the input **And clean the input**
 - 
 
-### 8. Add Filtering Options
+### Step 8. Add Filtering Options
 - In the signal store, add a filter string property to the state
 - Add a computed signal that contains only filtered tasks
 - Add a filter input box to the `ListBoxComponent`
 - When the value of the input changes, modify the current filter accordingly
 - Display only the tasks that pass the filter
 
-### 9. Keep persistancy using hooks
+### Step 9. Keep persistancy using hooks
 - Use `withHooks` to:
     1. Save the state to the local storage whenever it changes
     2. Load the state from the local storage when the store is created
