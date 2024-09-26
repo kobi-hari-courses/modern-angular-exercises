@@ -43,6 +43,6 @@
 |
 [Solution Code](./ex06-ngrx-signals/solution/)
 |
-[Solution Video](https://youtu.be/)
+[Solution Video](https://youtu.be/xMH8GybG1QY)
 
 

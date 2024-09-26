@@ -1,4 +1,5 @@
 # Exercise 06: NgRx Signals - Tasks App
+[Solution Video](https://youtu.be/xMH8GybG1QY)
 
 ## Introduction
 In this exercise we will practice using `@ngrx/signals` features like `withState`, `withComputed`, `withMethods`, and `withHooks` by building a simple task tracker application.
