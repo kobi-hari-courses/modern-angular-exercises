@@ -1,11 +1,10 @@
 import { patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
 import { initialTasksSlice } from "./tasks.slice";
 import { computed } from "@angular/core";
-import { generateId } from "../logic/id.helpers";
-import { Task } from "../models/task.model";
 import { addTask, removeTask, toggleTaskCompletion } from "./tasks.helpers";
 
 export const TasksStore = signalStore(
+    {providedIn: 'root'},
     withState(initialTasksSlice), 
     withComputed(store => ({
         totalTasksCount: computed(() => store.tasks().length), 
@@ -20,5 +19,4 @@ export const TasksStore = signalStore(
         removeTask: (id: number) =>
             patchState(store, state => removeTask(state, id))
     }))
-
 );

@@ -1,0 +1,21 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+
+
+    img {
+        width: 20px;
+        height: 20px;;
+        cursor: pointer;
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+
+    .trash {
+        margin-left: auto;
+    }
+}

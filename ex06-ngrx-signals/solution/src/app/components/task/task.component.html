@@ -1,0 +1,3 @@
+<img [src]="stateImage()" (click)="store.toggleTaskCompletion(id())">
+<div class="caption">{{task().title}}</div>
+<img src="trash.svg" class="trash" (click)="store.removeTask(id())">
