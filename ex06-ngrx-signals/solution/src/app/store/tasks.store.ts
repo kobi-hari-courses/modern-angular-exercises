@@ -1,7 +1,7 @@
-import { patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
+import { getState, patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
 import { initialTasksSlice } from "./tasks.slice";
 import { computed } from "@angular/core";
-import { addTask, removeTask, toggleTaskCompletion } from "./tasks.helpers";
+import { addTask, getFilteredTasks, removeTask, toggleTaskCompletion } from "./tasks.helpers";
 
 export const TasksStore = signalStore(
     {providedIn: 'root'},
@@ -9,7 +9,8 @@ export const TasksStore = signalStore(
     withComputed(store => ({
         totalTasksCount: computed(() => store.tasks().length), 
         completedTasksCount: computed(() => store.tasks().filter(t => t.completed).length), 
-        pendingTasksCount: computed(() => store.tasks().filter(t => !t.completed).length)
+        pendingTasksCount: computed(() => store.tasks().filter(t => !t.completed).length),
+        filteredTasks: computed(() => getFilteredTasks(store.filter(), store.tasks()))
     })), 
     withMethods(store => ({
         addTask: (title: string) => 
@@ -17,6 +18,8 @@ export const TasksStore = signalStore(
         toggleTaskCompletion: (id: number) => 
             patchState(store, state => toggleTaskCompletion(state, id)), 
         removeTask: (id: number) =>
-            patchState(store, state => removeTask(state, id))
+            patchState(store, state => removeTask(state, id)), 
+        setFilter: (filter: string) =>
+            patchState(store, state => ({...state, filter}))
     }))
 );

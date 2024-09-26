@@ -13,7 +13,7 @@ export class TasksListComponent {
   readonly store = inject(TasksStore);
   readonly addInput = viewChild.required('addTask', { read: ElementRef<any>});
 
-  readonly taskIds = computed(() => this.store.tasks().map(t => t.id));
+  readonly taskIds = computed(() => this.store.filteredTasks().map(t => t.id));
 
   onAddTask() {
     const input = this.addInput().nativeElement as HTMLInputElement;
@@ -21,7 +21,10 @@ export class TasksListComponent {
     this.store.addTask(title);
 
     input.value = '';
+  }
 
+  setFilter(filter: string) {
+    this.store.setFilter(filter);
   }
 
 }

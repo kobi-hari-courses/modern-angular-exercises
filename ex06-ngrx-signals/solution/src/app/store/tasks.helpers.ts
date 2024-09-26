@@ -26,3 +26,17 @@ export function removeTask(state: TasksSlice, id: number): Partial<TasksSlice> {
 
     return {tasks: newTasks};
 }
+
+export function getFilteredTasks(filter: string, tasks: Task[]): Task[] {
+    filter = filter
+        .trim()
+        .toLowerCase();
+
+    if (!filter) {
+        return tasks;
+    }
+
+    return tasks.filter(t => t.title.toLowerCase().includes(filter));
+
+
+}

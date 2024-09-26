@@ -1,3 +1,6 @@
+<input class="filter-input" type="search" #filterInput
+    (input)="setFilter(filterInput.value)" placeholder="Search tasks">
+
 @for(id of taskIds(); track id) {
     <app-task [id]="id"></app-task>
 }
