@@ -1,4 +1,4 @@
-import { Component, computed, inject } from '@angular/core';
+import { Component, computed, ElementRef, inject, viewChild } from '@angular/core';
 import { TasksStore } from '../../store/tasks.store';
 import { TaskComponent } from '../task/task.component';
 
@@ -11,7 +11,17 @@ import { TaskComponent } from '../task/task.component';
 })
 export class TasksListComponent {
   readonly store = inject(TasksStore);
+  readonly addInput = viewChild.required('addTask', { read: ElementRef<any>});
 
   readonly taskIds = computed(() => this.store.tasks().map(t => t.id));
+
+  onAddTask() {
+    const input = this.addInput().nativeElement as HTMLInputElement;
+    const title = input.value.trim();
+    this.store.addTask(title);
+
+    input.value = '';
+
+  }
 
 }
