@@ -1,6 +1,6 @@
-import { getState, patchState, signalStore, withComputed, withMethods, withState } from "@ngrx/signals";
+import { getState, patchState, signalStore, withComputed, withHooks, withMethods, withState } from "@ngrx/signals";
 import { initialTasksSlice } from "./tasks.slice";
-import { computed } from "@angular/core";
+import { computed, effect } from "@angular/core";
 import { addTask, getFilteredTasks, removeTask, toggleTaskCompletion } from "./tasks.helpers";
 
 export const TasksStore = signalStore(
@@ -21,5 +21,19 @@ export const TasksStore = signalStore(
             patchState(store, state => removeTask(state, id)), 
         setFilter: (filter: string) =>
             patchState(store, state => ({...state, filter}))
+    })), 
+    withHooks(store => ({
+        onInit() {
+            effect(() => {
+              const tasks = store.tasks();
+              localStorage.setItem('tasks', JSON.stringify(tasks));
+            });
+
+            const savedTasksJson = localStorage.getItem('tasks');
+            if (savedTasksJson) {
+                const savedTasks = JSON.parse(savedTasksJson);
+                patchState(store, {tasks: savedTasks});
+            }
+        }
     }))
 );
