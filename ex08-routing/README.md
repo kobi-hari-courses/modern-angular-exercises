@@ -61,6 +61,26 @@ In the `server` folder you will find a ready server. make sure to run `npm i` an
 - Add a store, and all the proper methods
 - Add HTML and CSS presenting the list of movies
 
+### Step 7 - Route Guard
+- Add a `CounterService` service
+  - This service has a method `isAllowed` which returns boolean
+  - The service counts how many times you run the isAllowed methods
+  - It returns true while the count is less than 20
+  - Once it has passed 20, it returns false
+- Add a `CounterGuard` function
+  - This is a Guard function so it should be defined using the proper type
+  - It injects the CounterService
+  - It runs the `isAllowed` method once.
+  - If the method returns true, so does the guard
+  - If it returns false, it returns a `UrlTree` that points to the home page
+  - In the home page, show the current counter
+  - If the counter is above 20 - display a "reset counter" button.
+  - When the button is clicked, reset the counter
+- **Challange**
+  - Make the `isAllowed` method asyncronous and return a promise of boolean that takes 2 seconds to complete
+  - Make the guard asyncronous as well
+
+
 
 ## Summary
 In this exercise you practiced:
@@ -68,7 +88,7 @@ In this exercise you practiced:
 - Using nested routing
 - Lazy loading component pages
 - Passing parameters to component inputs
-
+- Using route guards
 
 
 
