@@ -140,5 +140,183 @@
       "posterImage": "shadow_of_the_mountain.jpg",
       "cast": ["Rock Ascender", "Isabella Green", "Nathan Brooks"]
     }
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "fullName": "Alex Turner",
+      "imageFileName": "alex_turner.jpg",
+      "birthDate": "1984-07-15",
+      "birthPlace": "Los Angeles, California, USA",
+      "bio": "Alex Turner is known for his sharp wit and agile performances in heist and thriller films. His charismatic presence and ability to bring complexity to his roles have made him a fan favorite."
+    },
+    {
+      "id": 2,
+      "fullName": "Anthony Barnes",
+      "imageFileName": "anthony_barnes.jpg",
+      "birthDate": "1987-09-22",
+      "birthPlace": "Chicago, Illinois, USA",
+      "bio": "Anthony Barnes is a charismatic actor with a love for complex roles. Whether playing a hero or a villain, his nuanced performances and powerful on-screen presence have won him many fans."
+    },
+    {
+      "id": 3,
+      "fullName": "Celeste Hughes",
+      "imageFileName": "celeste_hughes.jpg",
+      "birthDate": "1995-03-10",
+      "birthPlace": "Miami, Florida, USA",
+      "bio": "Celeste Hughes is a versatile actress who shines in both science fiction and drama. Her nuanced performances have captivated audiences, and her ability to convey deep emotion makes her a standout talent."
+    },
+    {
+      "id": 4,
+      "fullName": "Daniel West",
+      "imageFileName": "daniel_west.jpg",
+      "birthDate": "1982-11-08",
+      "birthPlace": "London, England, UK",
+      "bio": "Daniel West is an acclaimed actor known for his versatility and strong screen presence. With a career spanning thrillers, dramas, and sci-fi, he has shown a remarkable ability to adapt to any role."
+    },
+    {
+      "id": 5,
+      "fullName": "Dr. James Carter",
+      "imageFileName": "dr_james_carter.jpg",
+      "birthDate": "1978-05-20",
+      "birthPlace": "New York City, New York, USA",
+      "bio": "Dr. James Carter, a former scientist turned actor, brings a unique authenticity to his roles in science-based and adventure films. Known for his intellectual portrayals and meticulous attention to detail, he has become a respected figure in film."
+    },
+    {
+      "id": 6,
+      "fullName": "Emma Steele",
+      "imageFileName": "emma_steele.jpg",
+      "birthDate": "1992-12-14",
+      "birthPlace": "Sydney, Australia",
+      "bio": "Emma Steele is a celebrated actress whose strong performances in fantasy and action films have garnered much attention. Her ability to bring strength and vulnerability to her characters has made her a beloved figure in film."
+    },
+    {
+      "id": 7,
+      "fullName": "Ethan Blade",
+      "imageFileName": "ethan_blade.jpg",
+      "birthDate": "1990-02-27",
+      "birthPlace": "Tokyo, Japan",
+      "bio": "Ethan Blade is a powerhouse actor who brings intensity and authenticity to every role. Specializing in action and cyberpunk films, he has become known for his fearless stunts and dynamic characters."
+    },
+    {
+      "id": 8,
+      "fullName": "Eva Thompson",
+      "imageFileName": "eva_thompson.jpg",
+      "birthDate": "1991-08-30",
+      "birthPlace": "Vancouver, Canada",
+      "bio": "Eva Thompson's elegance and wit have made her a favorite in both romance and adventure genres. Known for her expressive performances, she effortlessly brings her characters to life on screen."
+    },
+    {
+      "id": 9,
+      "fullName": "Evelyn Clarke",
+      "imageFileName": "evelyn_clarke.jpg",
+      "birthDate": "1986-06-05",
+      "birthPlace": "Dublin, Ireland",
+      "bio": "Evelyn Clarke's elegance and poise have made her a beloved actress in both indie and mainstream films. Her compelling performances in thrillers and dramas have earned her critical acclaim and a growing fan base."
+    },
+    {
+      "id": 10,
+      "fullName": "Henry Black",
+      "imageFileName": "henry_black.jpg",
+      "birthDate": "1980-01-17",
+      "birthPlace": "Edinburgh, Scotland, UK",
+      "bio": "Henry Black's deep voice and commanding presence have made him a popular choice for heroic roles. Known for his work in period dramas and action films, he has developed a dedicated following and critical recognition."
+    },
+    {
+      "id": 11,
+      "fullName": "Isabella Green",
+      "imageFileName": "isabella_green.jpg",
+      "birthDate": "1993-04-18",
+      "birthPlace": "Auckland, New Zealand",
+      "bio": "Isabella Green is a versatile actress whose roles span from fantasy to science fiction. Her talent for embodying both vulnerable and fierce characters has brought her numerous accolades in the film industry."
+    },
+    {
+      "id": 12,
+      "fullName": "Jackson Ford",
+      "imageFileName": "jackson_ford.jpg",
+      "birthDate": "1988-10-03",
+      "birthPlace": "Dallas, Texas, USA",
+      "bio": "Jackson Ford is an action star known for his work in time-travel and military films. With a background in extreme sports, he brings an intense physicality to his roles, thrilling audiences worldwide."
+    },
+    {
+      "id": 13,
+      "fullName": "Laura Bright",
+      "imageFileName": "laura_bright.jpg",
+      "birthDate": "1990-09-12",
+      "birthPlace": "San Francisco, California, USA",
+      "bio": "Laura Bright is a talented actress celebrated for her performances in both dramatic and sci-fi genres. Her ability to bring emotional depth to her roles has captivated audiences, making her a rising star in film."
+    },
+    {
+      "id": 14,
+      "fullName": "Liam Cooper",
+      "imageFileName": "liam_cooper.jpg",
+      "birthDate": "1987-02-04",
+      "birthPlace": "Manchester, England, UK",
+      "bio": "Liam Cooper is known for his strong performances in fantasy and historical dramas. With a background in martial arts, his dedication to physical roles is evident, making him a standout in action-packed films."
+    },
+    {
+      "id": 15,
+      "fullName": "Leo Summers",
+      "imageFileName": "leo_summers.jpg",
+      "birthDate": "1998-11-15",
+      "birthPlace": "Toronto, Canada",
+      "bio": "Leo Summers is an emerging talent known for his work in fantasy and adventure films. His dedication to embodying complex characters has made him a breakout star in the industry."
+    },
+    {
+      "id": 16,
+      "fullName": "Michael Stone",
+      "imageFileName": "michael_stone.jpg",
+      "birthDate": "1983-05-08",
+      "birthPlace": "Houston, Texas, USA",
+      "bio": "Michael Stone is a dynamic actor who has become well-known for his strong roles in action and adventure films. With a background in stunt performance, his dedication to his craft has earned him recognition across the industry."
+    },
+    {
+      "id": 17,
+      "fullName": "Nathan Brooks",
+      "imageFileName": "nathan_brooks.jpg",
+      "birthDate": "1985-03-21",
+      "birthPlace": "Melbourne, Australia",
+      "bio": "Nathan Brooks is a highly adaptable actor, skilled in playing both charming heroes and cunning antagonists. His work in adventure and sci-fi films has earned him both critical acclaim and a loyal fan base."
+    },
+    {
+      "id": 18,
+      "fullName": "Oliver Snow",
+      "imageFileName": "oliver_snow.jpg",
+      "birthDate": "1989-07-28",
+      "birthPlace": "Reykjavik, Iceland",
+      "bio": "Oliver Snow is a dynamic actor who has taken on a variety of challenging roles, from post-apocalyptic survivors to historical warriors. His captivating performances have earned him critical praise and a strong following."
+    },
+    {
+      "id": 19,
+      "fullName": "Rachel Knight",
+      "imageFileName": "rachel_knight.jpg",
+      "birthDate": "1988-01-25",
+      "birthPlace": "Boston, Massachusetts, USA",
+      "bio": "Rachel Knight has become known for her strong roles in both thrillers and adventure films. Her ability to portray intense and emotionally charged characters has made her a standout performer."
+    },
+    {
+      "id": 20,
+      "fullName": "Sophia Adams",
+      "imageFileName": "sophia_adams.jpg",
+      "birthDate": "1995-06-11",
+      "birthPlace": "Orlando, Florida, USA",
+      "bio": "Sophia Adams has quickly made a name for herself with her striking performances in both fantasy and romance films. Her charisma and talent on-screen have led her to be one of the most sought-after actresses of her generation."
+    },
+    {
+      "id": 21,
+      "fullName": "Thomas Fields",
+      "imageFileName": "thomas_fields.jpg",
+      "birthDate": "1979-09-14",
+      "birthPlace": "Denver, Colorado, USA",
+      "bio": "Thomas Fields, with his rugged charm and powerful performances, has become a household name. From gripping dramas to action-packed films, his range and depth as an actor have set him apart."
+    },
+    {
+      "id": 22,
+      "fullName": "William Kane",
+      "imageFileName": "william_kane.jpg",
+      "birthDate": "1984-12-19",
+      "birthPlace": "Belfast, Northern Ireland, UK",
+      "bio": "William Kane has a commanding screen presence, particularly in fantasy and historical roles. With his rugged looks and passionate performances, he has become a leading figure in epic storytelling."
+    }
   ]
 }
