@@ -1,0 +1,144 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Starfall Odyssey",
+      "description": "A journey through the cosmos as explorers search for a new habitable world.",
+      "posterImage": "starfall_odyssey.jpg",
+      "cast": ["Michael Stone", "Laura Bright", "Sophia Adams"]
+    },
+    {
+      "id": 2,
+      "name": "The Silent City",
+      "description": "In a city struck by a mysterious silence, a detective seeks answers.",
+      "posterImage": "the_silent_city.jpg",
+      "cast": ["Daniel West", "Michael Stone", "Evelyn Clarke"]
+    },
+    {
+      "id": 3,
+      "name": "Quantum Tide",
+      "description": "Scientists scramble to control a quantum anomaly before reality unravels.",
+      "posterImage": "quantum_tide.jpg",
+      "cast": ["Dr. James Carter", "Laura Bright", "Anthony Barnes"]
+    },
+    {
+      "id": 4,
+      "name": "Dragon's Embrace",
+      "description": "A forbidden love blooms between a dragon and a human princess.",
+      "posterImage": "dragons_embrace.jpg",
+      "cast": ["Liam Cooper", "Isabella Green", "Daniel West"]
+    },
+    {
+      "id": 5,
+      "name": "Ironbound Legacy",
+      "description": "A blacksmith becomes a warrior after discovering a legendary weapon.",
+      "posterImage": "ironbound_legacy.jpg",
+      "cast": ["Henry Black", "Emma Steele", "Sophia Adams"]
+    },
+    {
+      "id": 6,
+      "name": "Echoes of Tomorrow",
+      "description": "A soldier travels back in time to rewrite history and save humanity.",
+      "posterImage": "echoes_of_tomorrow.jpg",
+      "cast": ["Jackson Ford", "Isabella Green", "Dr. James Carter"]
+    },
+    {
+      "id": 7,
+      "name": "The Last Harvest",
+      "description": "A lone farmer defends the world's final fertile land against powerful forces.",
+      "posterImage": "the_last_harvest.jpg",
+      "cast": ["Thomas Fields", "Michael Stone", "Rachel Knight"]
+    },
+    {
+      "id": 8,
+      "name": "Moonlight Masquerade",
+      "description": "Romance, intrigue, and secrets at a masked ball on the lunar colony.",
+      "posterImage": "moonlight_masquerade.jpg",
+      "cast": ["Sophia Adams", "Daniel West", "Nathan Brooks"]
+    },
+    {
+      "id": 9,
+      "name": "Ocean's Veil",
+      "description": "An underwater team searches for a mythical city hidden in the depths.",
+      "posterImage": "oceans_veil.jpg",
+      "cast": ["Captain Ryan Waters", "Laura Bright", "Eva Thompson"]
+    },
+    {
+      "id": 10,
+      "name": "Starlit Dreams",
+      "description": "An astronomer witnesses a cosmic event that could change humanity’s fate.",
+      "posterImage": "starlit_dreams.jpg",
+      "cast": ["Celeste Hughes", "Anthony Barnes", "Dr. James Carter"]
+    },
+    {
+      "id": 11,
+      "name": "Phantom Mirage",
+      "description": "A thief with the power to become invisible must pull off the heist of the century.",
+      "posterImage": "phantom_mirage.jpg",
+      "cast": ["Alex Turner", "Evelyn Clarke", "Sophia Adams"]
+    },
+    {
+      "id": 12,
+      "name": "Chrono Knight",
+      "description": "A medieval warrior finds a device that lets him travel through time, altering his fate.",
+      "posterImage": "chrono_knight.jpg",
+      "cast": ["William Kane", "Emma Steele", "Nathan Brooks"]
+    },
+    {
+      "id": 13,
+      "name": "Frostbite Rebellion",
+      "description": "Survivors in an ice age must fight for warmth, resources, and freedom.",
+      "posterImage": "frostbite_rebellion.jpg",
+      "cast": ["Oliver Snow", "Rachel Knight", "Daniel West"]
+    },
+    {
+      "id": 14,
+      "name": "Neon Samurai",
+      "description": "In a cyberpunk city, a samurai seeks vengeance against the corporations that control everything.",
+      "posterImage": "neon_samurai.jpg",
+      "cast": ["Ethan Blade", "Laura Bright", "Anthony Barnes"]
+    },
+    {
+      "id": 15,
+      "name": "Solstice Awakening",
+      "description": "On the longest day of the year, a magical realm awakens and a hero is called to restore balance.",
+      "posterImage": "solstice_awakening.jpg",
+      "cast": ["Leo Summers", "Sophia Adams", "Celeste Hughes"]
+    },
+    {
+      "id": 16,
+      "name": "The Crimson Letter",
+      "description": "A mysterious letter ties together the fates of five strangers.",
+      "posterImage": "the_crimson_letter.jpg",
+      "cast": ["Henry Black", "Rachel Knight", "Michael Stone"]
+    },
+    {
+      "id": 17,
+      "name": "Revenant Skies",
+      "description": "Sky pirates face off against a powerful empire in a battle for freedom and treasure.",
+      "posterImage": "revenant_skies.jpg",
+      "cast": ["Captain Skyler", "Eva Thompson", "Nathan Brooks"]
+    },
+    {
+      "id": 18,
+      "name": "Whispers in the Wind",
+      "description": "An adventurer hears whispers that lead him on a journey through a mythical land.",
+      "posterImage": "whispers_in_the_wind.jpg",
+      "cast": ["Wanderer Gale", "Rachel Knight", "Sophia Adams"]
+    },
+    {
+      "id": 19,
+      "name": "Digital Dystopia",
+      "description": "A hacker fights to expose the dark secrets of a virtual utopia controlled by an AI.",
+      "posterImage": "digital_dystopia.jpg",
+      "cast": ["Ethan Blade", "Michael Stone", "Celeste Hughes"]
+    },
+    {
+      "id": 20,
+      "name": "Shadow of the Mountain",
+      "description": "A climber's quest to reach the summit reveals secrets buried deep within the mountain.",
+      "posterImage": "shadow_of_the_mountain.jpg",
+      "cast": ["Rock Ascender", "Isabella Green", "Nathan Brooks"]
+    }
+  ]
+}
