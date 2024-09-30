@@ -47,7 +47,7 @@
       "name": "The Last Harvest",
       "description": "A lone farmer defends the world's final fertile land against powerful forces.",
       "posterImage": "the_last_harvest.jpg",
-      "cast": ["Thomas Fields", "Michael Stone", "Rachel Knight"]
+      "cast": ["Helen Fields", "Michael Stone", "Rachel Knight"]
     },
     {
       "id": 8,
@@ -82,7 +82,7 @@
       "name": "Chrono Knight",
       "description": "A medieval warrior finds a device that lets him travel through time, altering his fate.",
       "posterImage": "chrono_knight.jpg",
-      "cast": ["William Kane", "Emma Steele", "Nathan Brooks"]
+      "cast": ["Emily Kane", "Emma Steele", "Nathan Brooks"]
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
     },
     {
       "id": 19,
-      "name": "Digital Dystopia",
+      "name": "Digital Virtuality",
       "description": "A hacker fights to expose the dark secrets of a virtual utopia controlled by an AI.",
       "posterImage": "digital_dystopia.jpg",
       "cast": ["Ethan Blade", "Michael Stone", "Celeste Hughes"]
@@ -186,7 +186,7 @@
       "id": 6,
       "fullName": "Emma Steele",
       "imageFileName": "emma_steele.jpg",
-      "birthDate": "1992-12-14",
+      "birthDate": "1984-12-14",
       "birthPlace": "Sydney, Australia",
       "bio": "Emma Steele is a celebrated actress whose strong performances in fantasy and action films have garnered much attention. Her ability to bring strength and vulnerability to her characters has made her a beloved figure in film."
     },
@@ -202,7 +202,7 @@
       "id": 8,
       "fullName": "Eva Thompson",
       "imageFileName": "eva_thompson.jpg",
-      "birthDate": "1991-08-30",
+      "birthDate": "1971-08-30",
       "birthPlace": "Vancouver, Canada",
       "bio": "Eva Thompson's elegance and wit have made her a favorite in both romance and adventure genres. Known for her expressive performances, she effortlessly brings her characters to life on screen."
     },
@@ -304,19 +304,19 @@
     },
     {
       "id": 21,
-      "fullName": "Thomas Fields",
-      "imageFileName": "thomas_fields.jpg",
+      "fullName": "Helen Fields",
+      "imageFileName": "helen_fields.jpg",
       "birthDate": "1979-09-14",
       "birthPlace": "Denver, Colorado, USA",
-      "bio": "Thomas Fields, with his rugged charm and powerful performances, has become a household name. From gripping dramas to action-packed films, his range and depth as an actor have set him apart."
+      "bio": "Helen Fields, with her rugged charm and powerful performances, has become a household name. From gripping dramas to action-packed films, her range and depth as an actress have set her apart."
     },
     {
       "id": 22,
-      "fullName": "William Kane",
-      "imageFileName": "william_kane.jpg",
+      "fullName": "Emily Kane",
+      "imageFileName": "emily_kane.jpg",
       "birthDate": "1984-12-19",
       "birthPlace": "Belfast, Northern Ireland, UK",
-      "bio": "William Kane has a commanding screen presence, particularly in fantasy and historical roles. With his rugged looks and passionate performances, he has become a leading figure in epic storytelling."
+      "bio": "Emily Kane has a commanding screen presence, particularly in fantasy and historical roles. With her rugged looks and passionate performances, she has become a leading figure in epic storytelling."
     }
   ]
 }
