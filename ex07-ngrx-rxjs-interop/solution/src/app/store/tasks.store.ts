@@ -13,27 +13,14 @@ export const TasksStore = signalStore(
         filteredTasks: computed(() => getFilteredTasks(store.filter(), store.tasks()))
     })), 
     withMethods(store => ({
-        addTask: (title: string) => 
-            patchState(store, state => addTask(state, title)),
-        toggleTaskCompletion: (id: number) => 
-            patchState(store, state => toggleTaskCompletion(state, id)), 
-        removeTask: (id: number) =>
-            patchState(store, state => removeTask(state, id)), 
+        addTask: (title: string) => {},
+        toggleTaskCompletion: (id: number) => {},
+        removeTask: (id: number) => {},
         setFilter: (filter: string) =>
             patchState(store, state => ({...state, filter}))
     })), 
     withHooks(store => ({
         onInit() {
-            effect(() => {
-              const tasks = store.tasks();
-              localStorage.setItem('tasks', JSON.stringify(tasks));
-            });
-
-            const savedTasksJson = localStorage.getItem('tasks');
-            if (savedTasksJson) {
-                const savedTasks = JSON.parse(savedTasksJson);
-                patchState(store, {tasks: savedTasks});
-            }
         }
     }))
 );

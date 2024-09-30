@@ -9,7 +9,7 @@ export interface TasksSlice {
 }
 
 export const initialTasksSlice: TasksSlice = {
-    tasks: MOCK_TASKS, 
+    tasks: [], 
     filter: '', 
     loadState: 'idle'
 } 
