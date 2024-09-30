@@ -50,7 +50,7 @@
 |
 [Solution Code](./ex07-ngrx-rxjs-interop/solution)
 |
-[Solution Video](https://youtu.be/xMH8GybG1QY)
+[Solution Video](https://youtu.be/_M_4jP2mA5w)
 
 ### Exercise 8 - Routing - Movies App
 [Exercise](./ex08-routing/README.md)
