@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --delay 3000 --watch data.json" 
+    "start": "json-server --delay 1500 --watch data.json" 
   },
   "author": "",
   "license": "ISC",

@@ -12,6 +12,14 @@ export function addTask(state:TasksSlice, title: string): Partial<TasksSlice> {
     return {tasks: [...state.tasks, newTask]};
 }
 
+export function newTask(title: string): Task {
+    return {
+        id: generateId(),
+        title,
+        completed: false
+    };
+}
+
 export function toggleTaskCompletion(state: TasksSlice, id: number): Partial<TasksSlice> {
     const newTasks = state.tasks.map(t => t.id === id 
         ? {...t, completed: !t.completed}
@@ -19,6 +27,10 @@ export function toggleTaskCompletion(state: TasksSlice, id: number): Partial<Tas
     );
 
     return {tasks: newTasks};
+}
+
+export function toggleTask(task: Task): Task {
+    return {...task, completed: !task.completed};
 }
 
 export function removeTask(state: TasksSlice, id: number): Partial<TasksSlice> {
