@@ -9,6 +9,7 @@
         { "id": 347, "title": "Do the grocery shopping", "completed": false },
         { "id": 712, "title": "Wash the car", "completed": true },
         { "id": 850, "title": "Clean the bathroom", "completed": false },
-        { "id": 999, "title": "Change the bed sheets", "completed": true }
+        { "id": 999, "title": "Change the bed sheets", "completed": true }, 
+        { "id": 555, "title": "Check that the data service works", "completed": false}
     ]
 }
