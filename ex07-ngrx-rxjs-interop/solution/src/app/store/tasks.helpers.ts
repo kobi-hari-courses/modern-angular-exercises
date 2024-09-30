@@ -37,6 +37,12 @@ export function getFilteredTasks(filter: string, tasks: Task[]): Task[] {
     }
 
     return tasks.filter(t => t.title.toLowerCase().includes(filter));
+}
 
+export function setLoading(): Partial<TasksSlice> {
+    return {loadState: 'loading'};
+}
 
+export function setIdle(): Partial<TasksSlice> {
+    return {loadState: 'idle'};
 }
