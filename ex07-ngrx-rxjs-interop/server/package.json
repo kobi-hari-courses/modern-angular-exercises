@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch data.json"
+    "start": "json-server --delay 3000 --watch data.json", 
+    "start-delay": "json-server data.json --middlewares middleware.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
+  "dependencies": {
+    "json-server": "0.17.3"
   }
 }
