@@ -45,4 +45,17 @@
 |
 [Solution Video](https://youtu.be/xMH8GybG1QY)
 
+### Exercise 7 - Tasks App (contd)
+[Exercise](./ex07-ngrx-rxjs-interop/README.md)
+|
+[Solution Code](./ex07-ngrx-rxjs-interop/solution)
+|
+[Solution Video](https://youtu.be/xMH8GybG1QY)
+
+### Exercise 8 - Routing - Movies App
+[Exercise](./ex08-routing/README.md)
+|
+[Solution Code](./ex08-routing/solution)
+|
+[Solution Video](https://youtu.be/xMH8GybG1QY)
 

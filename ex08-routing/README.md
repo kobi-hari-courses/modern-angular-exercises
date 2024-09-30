@@ -1,4 +1,4 @@
-# Exercise 08: Routing
+# Exercise 08: Routing - Movies
 
 ## Introduction
 In this exercise we will create a new application that displays movie information. We will use all the features we did in previous exercises and add routing.

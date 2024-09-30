@@ -1,4 +1,4 @@
-# Exercise 07: NgRx - Interop with RxJs
+# Exercise 07: NgRx - Interop with RxJs - Tasks App
 
 ## Introduction
 In the following exercise we will build on the previous exercise ([ex 06](../ex06-ngrx-signals/README.md)) and add interoperability with rxjs. We will: 
