@@ -1,1 +1,7 @@
 <app-tasks-list/>
+
+@if(isBusy()) {
+    <div class="busy">
+        Loading, please wait...
+    </div>
+}
