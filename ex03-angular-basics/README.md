@@ -11,7 +11,7 @@ Start by setting up a new Angular project. You can use the Angular CLI for this.
 ### Step 2. Models and Union Types 
 - Create a `GameState` type using TypeScript's **union types** to represent the different states of the game ('playing', 'won', 'lost'). 
 - Create a `GuessResult` union type with the values ('exact', 'high', 'low')
-- Create a `Guess` ineterface with the following properties: value (number), result(GameResult)
+- Create a `Guess` interface with the following properties: value (number), result(GameResult)
 
 ### Step 3. Helper functions
 In this exercise we will leave the decision of which helper functions to create for you. Remember that helper functions are pure functions that help you with immutable work. These should be pure functions that help you calculate state changes.
