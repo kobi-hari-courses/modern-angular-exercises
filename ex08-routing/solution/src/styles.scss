@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --primary: #0d70a9;
+    --p-5: var(--primary);
+    --p-4: color-mix(in srgb, var(--primary) 80%, white 20%);
+    --p-3: color-mix(in srgb, var(--primary) 60%, white 40%);
+    --p-2: color-mix(in srgb, var(--primary) 40%, white 60%);
+    --p-1: color-mix(in srgb, var(--primary) 20%, white 70%);
+    --p-6: color-mix(in srgb, var(--primary) 80%, black 20%);
+    --p-7: color-mix(in srgb, var(--primary) 60%, black 40%);
+    --p-8: color-mix(in srgb, var(--primary) 40%, black 60%);
+    --p-9: color-mix(in srgb, var(--primary) 20%, black 70%);
+}
