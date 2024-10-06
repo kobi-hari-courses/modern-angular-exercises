@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch data.json --static ./images"
+    "start": "json-server --delay 1000 --watch data.json --static ./images"
   },
   "author": "",
   "license": "ISC",

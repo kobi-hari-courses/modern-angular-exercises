@@ -1,1 +1,9 @@
-<p>actors works!</p>
+@if(store.loading()) {<app-busy/>}
+@else {
+    @for(actor of store.actors(); track actor.id) {
+        <div class="actor">
+            {{actor.fullName}}
+        </div>
+    }
+}
+

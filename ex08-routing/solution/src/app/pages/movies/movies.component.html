@@ -1,1 +1,9 @@
-<p>movies works!</p>
+@if(store.loading()) {<app-busy/>}
+@else {
+    @for(movie of store.movies(); track movie.id) {
+        <div class="movie">
+            {{movie.name}}
+        </div>
+    }
+}
+
