@@ -53,6 +53,7 @@ In the `server` folder you will find a ready server. make sure to run `npm i` an
 - Connect the id signal to it
 - Make sure to use the proper flattening operator
 - Create some HTML and CSS for each item
+- Notice that there are also images in the server, which you can show in the actor and movie details pages
 
 ### Step 6 - The Actor movies page
 - For each actor, also add a movies page that can be displayed next to the actors list page
