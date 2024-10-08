@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CounterService } from '../../services/counter.service';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export default class HomeComponent {
+  readonly counterService = inject(CounterService);
 
 }

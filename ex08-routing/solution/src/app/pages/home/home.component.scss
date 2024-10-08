@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+
+    button {
+        padding: 8px;
+        border: 1px solid var(--p-4);
+        background-color: var(--p-1);
+        color: var(--p-6);
+        cursor: pointer;
+        &:hover {
+            background-color: var(--p-2);
+        }
+    }
+}
