@@ -77,6 +77,7 @@ In the `server` folder you will find a ready server. make sure to run `npm i` an
   - In the home page, show the current counter
   - If the counter is above 20 - display a "reset counter" button.
   - When the button is clicked, reset the counter
+  - Use the guard on the movies and actors section, so you cannot enter these sections when the counter is over 20
 - **Challange**
   - Make the `isAllowed` method asyncronous and return a promise of boolean that takes 2 seconds to complete
   - Make the guard asyncronous as well
