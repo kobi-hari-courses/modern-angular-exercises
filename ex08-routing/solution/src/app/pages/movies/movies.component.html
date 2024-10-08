@@ -1,9 +1,14 @@
 @if(store.loading()) {<app-busy/>}
 @else {
-    @for(movie of store.movies(); track movie.id) {
-        <div class="movie">
-            {{movie.name}}
-        </div>
-    }
+    <div class="list">
+        @for(movie of store.movies(); track movie.id) {
+            <div class="movie" (click)="goToDetails(movie.id)">
+                {{movie.name}}
+            </div>
+        }    
+    </div>
+    <div class="details">
+        <router-outlet/>
+    </div>
 }
 

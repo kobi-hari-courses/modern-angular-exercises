@@ -1,9 +1,14 @@
 @if(store.loading()) {<app-busy/>}
 @else {
-    @for(actor of store.actors(); track actor.id) {
-        <div class="actor">
-            {{actor.fullName}}
-        </div>
-    }
+    <div class="list">
+        @for(actor of store.actors(); track actor.id) {
+            <div class="actor" (click)="goToDetails(actor.id)">
+                {{actor.fullName}}
+            </div>
+        }    
+    </div>
+    <div class="details">
+        <router-outlet/>
+    </div>
 }
 

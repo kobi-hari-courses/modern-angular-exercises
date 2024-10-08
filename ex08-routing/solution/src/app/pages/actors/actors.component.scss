@@ -1,17 +1,32 @@
 :host {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 8px;
-
-    .actor {
+    flex-direction: row;
+  
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      padding: 8px;
+      min-width: max-content;
+  
+      .actor {
         padding: 5px;
         border: 1px solid var(--p-4);
         color: var(--p-6);
-
+  
         cursor: pointer;
         &:hover {
-            background-color: var(--p-1);
+          background-color: var(--p-1);
         }
+      }
     }
-}
+  
+    .details {
+      flex-grow: 1;
+      background-color: var(--p-1);
+      display: grid;
+      grid-template-rows: auto 1fr;
+  
+    }
+  }
+  

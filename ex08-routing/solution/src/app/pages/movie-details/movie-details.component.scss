@@ -1,0 +1,32 @@
+:host {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+
+    .name {
+        color: var(--p-5);
+    }
+
+    .description {
+        color: var(--p-6);
+    }
+
+    .poster {
+        max-width: 100%;
+        border: 2px solid var(--p-7);
+        border-radius: 8px;        
+    }
+
+    .cast {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        li {
+            list-style: none;
+            color: var(--p-7);
+        }
+    }
+
+}

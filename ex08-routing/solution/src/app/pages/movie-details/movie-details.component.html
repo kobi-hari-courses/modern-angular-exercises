@@ -1,1 +1,15 @@
-<p>movie-details works!</p>
+@if(store.loading()) {<app-busy/>}
+@else {
+    @if(store.movie(); as movie) {
+        <h1 class="name">{{movie.name}}</h1>
+        <p class="description">{{movie.description}}</p>
+        <img [src]="store.imageUrl()" class="poster">
+
+        <h2>Cast</h2>
+        <ul class="cast">
+            @for(actor of movie.cast; track actor) {
+                <li>{{actor}}</li>
+            }
+        </ul>
+    }
+}

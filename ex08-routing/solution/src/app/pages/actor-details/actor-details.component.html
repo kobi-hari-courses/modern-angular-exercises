@@ -1,1 +1,10 @@
-<p>actor-details works!</p>
+@if(store.loading()) {<app-busy/>}
+@else {
+    @if(store.actor(); as actor) {
+        <h1 class="full-name">{{actor.fullName}}</h1>
+        <div class="birth-date">{{actor.birthDate}}</div>
+        <div class="birth-place">{{actor.birthPlace}}</div>
+        <p class="bio">{{actor.bio}}</p>
+        <img [src]="store.imageUrl()" class="image">
+    }
+}

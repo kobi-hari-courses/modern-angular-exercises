@@ -26,3 +26,9 @@ body {
     --p-8: color-mix(in srgb, var(--primary) 40%, black 60%);
     --p-9: color-mix(in srgb, var(--primary) 20%, black 70%);
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
