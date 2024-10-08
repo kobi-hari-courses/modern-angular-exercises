@@ -20,8 +20,10 @@ export const routes: Routes = [
     children: [
       {
         path: ':id',
-        loadComponent: () =>
-          import('./pages/actor-details/actor-details.component'),
+        children: [
+            { path: '', loadComponent: () => import('./pages/actor-details/actor-details.component') },
+            { path: 'movies', loadComponent: () => import('./pages/actor-movies/actor-movies.component') },
+        ]
       },
     ],
   },

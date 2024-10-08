@@ -1,0 +1,25 @@
+:host {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 5px;
+
+    h1 {
+        color: var(--p-5);
+    }
+
+    .movie {
+        border: 2px solid var(--p-3);
+        padding: 6px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--p-2);
+        }
+
+        h1 {
+            font-size: 0.8em;
+        }
+    }
+}

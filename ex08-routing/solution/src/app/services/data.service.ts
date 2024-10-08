@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { BASE_URL_TOKEN } from '../tokens/base-url.token';
-import { Observable } from 'rxjs';
+import { map, Observable, switchMap } from 'rxjs';
 import { Movie } from '../models/movie.model';
 import { Actor } from '../models/actor.model';
 
@@ -42,4 +42,12 @@ export class DataService {
     return this.http.get<Movie[]>(url);
   }
 
+  getMoviesByActorId(id: number): Observable<{movies: Movie[], actor: Actor}> {
+    console.log('Fetching actor movies by id', id);
+    return this.getActorById(id).pipe(
+      switchMap(actor => this.getMoviesByActorName(actor.fullName).pipe(
+        map(movies => ({ movies, actor}))
+      ))
+    )
+  }
 }

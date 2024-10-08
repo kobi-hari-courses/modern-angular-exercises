@@ -31,4 +31,16 @@
         border-radius: 8px;        
     }
 
+    button {
+        padding: 4px;
+        background-color: var(--p-2);
+        color: var(--p-6);
+        border: 1px solid var(--p-6);
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--p-3);
+        }
+    }
+
 }

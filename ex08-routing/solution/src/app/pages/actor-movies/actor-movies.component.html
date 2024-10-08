@@ -1,1 +1,12 @@
-<p>actor-movies works!</p>
+@if(store.loading()) {<app-busy/>}
+@else {
+    @if(store.actor(); as actor) {
+        <h1 class="full-name">{{actor.fullName}}</h1>
+    }
+    @for(movie of store.movies(); track movie.id) {
+        <div class="movie" [routerLink]="['/', 'movies', movie.id]">
+            <h1>{{movie.name}}</h1>
+        </div>
+    }
+
+}
