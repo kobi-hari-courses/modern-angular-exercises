@@ -59,5 +59,5 @@
 |
 [Solution Code](./ex08-routing/solution)
 |
-[Solution Video](https://youtu.be/xMH8GybG1QY)
+[Solution Video](https://youtu.be/hIWdwGxc1ME)
 
