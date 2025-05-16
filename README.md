@@ -1,7 +1,7 @@
 # Exercises on various angular topics
 
 ##  Typescript
-#### Exercise 1 - Shapes clculations and reports
+#### Exercise 1 - Shapes calculations and reports
 [Exercise](./ex01-typescript/README.md) 
 |
 [Solution Code](./ex01-typescript/solution/) 
